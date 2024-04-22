@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #D2B48C;
+	background-color: #F5F5DC;
 	font-family: Verdana;
 	color: #D4D4D4;
 	font-size: 14px;
@@ -16,7 +16,7 @@ main {
 }
 
 header {
-	background-color: #2F4F4F;
+	background-color: #222222;
 	padding: 55px 160px 121px 60px;
 }
 
@@ -69,7 +69,7 @@ header section {
 }
 
 .photo {
-	color: #888888;
+	color: #555555;
 	display: flex;
 	justify-content: space-between;
 }
@@ -88,10 +88,6 @@ header section {
 	font-weight: bold;
 }
 
-.header-left h3 {
-	padding: 0px 0px 53px 0px;
-}
-
 .header-left p {
 	margin-bottom: 55px;
 }
@@ -100,7 +96,7 @@ header section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #FAEBD7;
+	background-color: #FFCB06;
 	color: #000000;
 	font-weight: bold;
 	height: 50px;
@@ -112,7 +108,7 @@ header section {
 }
 	
 .header-left a:hover {
-	background-color: #FAEBD7;
+	background-color: #D4D4D4;
 }
 
 .advantage {
@@ -130,26 +126,24 @@ header section {
 }
 
 .content {
-	padding: 40px 160px 0px 160px;
-	background-color: #FAEBD7;
+	padding: 80px 160px 70px 160px;
+	background-color: #FFFFFF;
 	color: #000000;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
 .content div {
-	width: 1200px;
+	width: 400px;
 	margin-bottom: 50px;
 }
 
-.content h1 {
-	font-family: Courier;
-	font-size: 50px;
+.content h2 {
+	font-family: Courier New;
+	font-size: 24px;
 	font-weight: bold;
 	margin-bottom: 40px;
-	display: flex;
-	justify-content: center;
 }
 
 .content p {
@@ -165,25 +159,19 @@ header section {
 	font-weight: bold;
 }
 
-
-
-.cc {
-	padding: 30px 160px 70px 160px;
-	background-color: #FAEBD7;
-	color: #000000;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
-.cc div {
-	width: 250px;
-	margin-bottom: 50px;
-	color: #000000;
+.content ul li:before {
+	content: "";
+	background-color: #FFCB06;
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	top: 5px;
+	left: -30px;
+	border-radius: 50%;
 }
 
 footer {
-	background-color: #2F4F4F;
+	background-color: 222222;
 	padding: 60px 160px 80px 160px;
 	display: flex;
 	justify-content: space-between;
@@ -208,12 +196,12 @@ footer div {
 }
 
 footer div p {
-	color: #888888;
+	color: 555555;
 }
 
 footer div h2 {
 	padding-bottom: 12px;
-	border-bottom: 1px solid #888888;
+	border-bottom: 1px solid #555555;
 	color: #D4D4D4;
 	font-family: Verdana;
 	font-size: 14px;
