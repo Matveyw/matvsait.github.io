@@ -42,7 +42,7 @@ nav ol li {
 }
 
 .logo {
-	margin-right: 500px;
+	margin-right: 800px;
 }
 
 nav ul {
@@ -55,11 +55,11 @@ nav ul li {
 }
 
 a {
-	color: #D4D4D4;
+	color: #FAEBD7;
 }
 
 a:hover {
-	color: #FFCB06;
+	color: #D2B48C;
 }
 
 header section {
@@ -226,4 +226,8 @@ footer div ul li {
 
 footer div ul li a {
 	color: #888888;
+}
+
+footer a:hover {
+	color: #D2B48C;
 }
